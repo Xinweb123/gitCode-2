@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            border: none;
+        }
+       html,body{
+        height: 100%;
+        width: 100%;
+       }
+       body{
+        background-image: url('./login_bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+       }
+       .header{
+        height: 70px;
+        background-color: gray;
+       }
+       .centen{
+        display: flex;
+        height: 1000px;
+
+       }
+       .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1000px;
+        height: 300px;
+        margin: auto;
+        background-color: skyblue;
+        
+       }
+       .item{
+        list-style: none;
+        justify-content: space-evenly;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+       }
+       .item:hover{
+        box-shadow: 0 0 15px rgba(128, 128, 128, 0.586);
+        transition: 0.2s linear;
+       }
+    </style>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="centen">
+        <div class="main">
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+        </div>
+    </div>
+
+    
+</body>
+</html>
